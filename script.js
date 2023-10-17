@@ -4,7 +4,7 @@ let containerElement = document.querySelector(".container");
 let blue = ["#587291", "#2F97C1", "#1CCAD8", "#15E6CD", "#5076A6"];
 let pink = ["#D500AA", "#FF47DA", "#FF87AB", "#FCC8C2", "#ED497A"];
 let orange = ["#D24C27", "#ED8653", "#EEB559", "#EE6C4D", "#F7A12F"];
-let purple = ["#CD8DF5", "#ED53D9", "#9A1DA6", "#BF32DE", "#F72FC5"];
+let purple = ["#CD8DF5", "#ED53D9", "#9A1DA6", "#BF32DE", "#e32ff7"];
 
 let currentPalette = blue;
 
