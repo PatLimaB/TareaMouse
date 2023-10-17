@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Pixelify+Sans&display=swap');
+
+* {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(./img/cesped.png);
+    background-repeat: repeat;
+}
+
+h1 {
+    margin: 10px;
+    color: yellow;
+    text-shadow: 3px 1px 1px #0e3400;
+    font-size: 50px;
+}
+
+p {
+    margin: 0;
+    color: #0e3400;
+    font-size: 25px;
+    color: #faff71;
+    text-shadow: 2px 1px 1px #0e3400;
+
+}
+
+.buttons {
+    margin: 20px;
+}
+
+button {
+    margin: 0 15px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #87BF39;
+    height: 650px;
+    width: 650px;
+    margin-bottom: 20px;
+}
+
+.square {
+    flex-basis: 2%;
+    height: 2%;
+    border: 1px solid #4ba034;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 0 15px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+#blueButton {
+    background-color: #5076A6;
+}
+
+#blueButton:hover {
+    background-color: #1CCAD8;
+    cursor: pointer;
+}
+
+#pinkButton {
+    background-color: #ED497A;
+}
+
+#pinkButton:hover {
+    background-color: #FCC8C2;
+    cursor: pointer;
+}
+
+#orangeButton {
+    background-color: #F7A12F;
+}
+
+#orangeButton:hover {
+    background-color: #EEB559;
+    cursor: pointer;
+}
+
+#purpleButton {
+    background-color: #9A1DA6;
+}
+
+#purpleButton:hover {
+    background-color: #CD8DF5;
+    cursor: pointer;
+}
